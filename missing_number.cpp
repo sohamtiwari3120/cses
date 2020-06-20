@@ -7,11 +7,9 @@ int main()
     int n;
     cin>>n;
     int i;
-    ll total = n*(n+1);
+    ll total = (ll)n*(n+1)/2;
     ll sum = 0;
     int temp;
-    cout<<n+1<<endl;
-    cout<<total<<endl;
     FOR(i, 0, n-1)
     {
         cin>>temp;
